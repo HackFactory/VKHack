@@ -118,7 +118,15 @@
 //            [self animateAlpha:self.text alphaBegin:1 alphaEnd:0 time:1. completion:nil];
 //            [self animateAlpha:self.authButton alphaBegin:1 alphaEnd:0 time:1. completion:nil];
 //            int t = 4;
-            
+            if (!responseObject) {
+                [self skip];
+                return;
+            }
+            [[NSUserDefaults standardUserDefaults] setObject:responseObject[@"screen_3_logo"] forKey:@"link"];
+            [[NSUserDefaults standardUserDefaults] setObject:responseObject[@"screen_3_text"][0][0] forKey:@"string1"];
+            [[NSUserDefaults standardUserDefaults] setObject:responseObject[@"screen_3_text"][0][1] forKey:@"string2"];
+            [[NSUserDefaults standardUserDefaults] setObject:responseObject[@"screen_3_text"][1][0] forKey:@"string3"];
+            [[NSUserDefaults standardUserDefaults] setObject:responseObject[@"screen_3_text"][1][1] forKey:@"string4"];
             [self skip];
 //            self.loadedImages = imgs;
 //
@@ -134,6 +142,16 @@
         }];
     
     return response;
+}
+
+- (void)viewDidAppear {
+//    [siup]
+    PHFetchOptions *const foptions = nil;
+    foptions.sortDescriptors = @[
+        [NSSortDescriptor sortDescriptorWithKey:@"creationDate" ascending:NO],
+    ];
+
+    PHFetchResult<PHAsset *> *images = [PHAsset fetchAssetsWithMediaType:PHAssetMediaTypeImage options:foptions];
 }
 - (void)moveView:(UIView *)view fromOrigin:(CGPoint)origin toPlace:(CGPoint)destination alphaBegin:(CGFloat)alphaBegin alphaEnd:(CGFloat)alphaEnd time:(CGFloat)seconds completion:(void(^)(BOOL finished))completion
 {

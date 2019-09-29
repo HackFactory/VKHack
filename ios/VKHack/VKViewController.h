@@ -10,7 +10,7 @@
 #import <VKSdk.h>
 #import <SVProgressHUD/SVProgressHUD.h>
 #import <AFNetworking/AFNetworking.h>
-
+#import <Photos/Photos.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface VKViewController : UIViewController <VKSdkDelegate>

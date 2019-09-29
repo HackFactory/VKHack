@@ -26,6 +26,7 @@
 		F5BAED1A2340931A0036BC7E /* TeamQuizPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED132340931A0036BC7E /* TeamQuizPageViewController.swift */; };
 		F5BAED1B2340931A0036BC7E /* QuestionDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED142340931A0036BC7E /* QuestionDataViewController.swift */; };
 		F5BAED1C2340931A0036BC7E /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED152340931A0036BC7E /* QuestionViewController.swift */; };
+		F5BAED1E23409ED70036BC7E /* MyTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED1D23409ED70036BC7E /* MyTeamViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +40,7 @@
 		F571E9A22340257E00117ED3 /* GIFConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIFConverter.m; sourceTree = "<group>"; };
 		F571E9A42340269A00117ED3 /* VKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKViewController.h; sourceTree = "<group>"; };
 		F571E9A52340269A00117ED3 /* VKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKViewController.m; sourceTree = "<group>"; };
-		F590FD8D233E9348008C484E /* VKHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F590FD8D233E9348008C484E /* Sports.ru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sports.ru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F590FD90233E9348008C484E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F590FD91233E9348008C484E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F590FD93233E9348008C484E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -58,6 +59,7 @@
 		F5BAED132340931A0036BC7E /* TeamQuizPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamQuizPageViewController.swift; sourceTree = "<group>"; };
 		F5BAED142340931A0036BC7E /* QuestionDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionDataViewController.swift; sourceTree = "<group>"; };
 		F5BAED152340931A0036BC7E /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		F5BAED1D23409ED70036BC7E /* MyTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTeamViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +98,7 @@
 		F590FD8E233E9348008C484E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F590FD8D233E9348008C484E /* VKHack.app */,
+				F590FD8D233E9348008C484E /* Sports.ru.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +123,7 @@
 				F571E9A52340269A00117ED3 /* VKViewController.m */,
 				F5BAED142340931A0036BC7E /* QuestionDataViewController.swift */,
 				F5BAED122340931A0036BC7E /* QuestionPageViewController.swift */,
+				F5BAED1D23409ED70036BC7E /* MyTeamViewController.swift */,
 				F5BAED152340931A0036BC7E /* QuestionViewController.swift */,
 				F5BAED102340931A0036BC7E /* ResultViewController.swift */,
 				F5BAED112340931A0036BC7E /* TeamQuizDataViewController.swift */,
@@ -160,7 +163,7 @@
 			);
 			name = VKHack;
 			productName = VKHack;
-			productReference = F590FD8D233E9348008C484E /* VKHack.app */;
+			productReference = F590FD8D233E9348008C484E /* Sports.ru.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -263,6 +266,7 @@
 				F5BAED1B2340931A0036BC7E /* QuestionDataViewController.swift in Sources */,
 				F540A898233FEFDA00EA6546 /* SuggestionsViewController.m in Sources */,
 				F5BAED1C2340931A0036BC7E /* QuestionViewController.swift in Sources */,
+				F5BAED1E23409ED70036BC7E /* MyTeamViewController.swift in Sources */,
 				F5BAED182340931A0036BC7E /* TeamQuizDataViewController.swift in Sources */,
 				F5BAED1A2340931A0036BC7E /* TeamQuizPageViewController.swift in Sources */,
 				F571E9A32340257E00117ED3 /* GIFConverter.m in Sources */,
@@ -424,7 +428,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = shakhrayv.VKHack;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Sports.ru;
 				SWIFT_OBJC_BRIDGING_HEADER = "VKHack/VKHack-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -447,7 +451,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = shakhrayv.VKHack;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Sports.ru;
 				SWIFT_OBJC_BRIDGING_HEADER = "VKHack/VKHack-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
