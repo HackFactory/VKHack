@@ -144,15 +144,17 @@
     return response;
 }
 
-- (void)viewDidAppear {
-//    [siup]
-    PHFetchOptions *const foptions = nil;
-    foptions.sortDescriptors = @[
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    PHFetchOptions *const options = nil;
+    options.sortDescriptors = @[
         [NSSortDescriptor sortDescriptorWithKey:@"creationDate" ascending:NO],
     ];
 
-    PHFetchResult<PHAsset *> *images = [PHAsset fetchAssetsWithMediaType:PHAssetMediaTypeImage options:foptions];
+    PHFetchResult<PHAsset *> *images = [PHAsset fetchAssetsWithMediaType:PHAssetMediaTypeImage options:options];
+
 }
+
 - (void)moveView:(UIView *)view fromOrigin:(CGPoint)origin toPlace:(CGPoint)destination alphaBegin:(CGFloat)alphaBegin alphaEnd:(CGFloat)alphaEnd time:(CGFloat)seconds completion:(void(^)(BOOL finished))completion
 {
     view.alpha = alphaBegin;
