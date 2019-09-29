@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F590FD8C233E9348008C484E"
-               BuildableName = "VKHack.app"
+               BuildableName = "Sports.ru.app"
                BlueprintName = "VKHack"
                ReferencedContainer = "container:VKHack.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F590FD8C233E9348008C484E"
-            BuildableName = "VKHack.app"
+            BuildableName = "Sports.ru.app"
             BlueprintName = "VKHack"
             ReferencedContainer = "container:VKHack.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F590FD8C233E9348008C484E"
-            BuildableName = "VKHack.app"
+            BuildableName = "Sports.ru.app"
             BlueprintName = "VKHack"
             ReferencedContainer = "container:VKHack.xcodeproj">
          </BuildableReference>
