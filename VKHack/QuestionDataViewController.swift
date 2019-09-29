@@ -77,6 +77,7 @@ class QuestionDataViewController: UIViewController {
         } else {
             // Fallback on earlier versions
         }
+        vc.topViewController = topViewController
         vc.teamName = teamName
         vc.result = result
     }
@@ -89,6 +90,7 @@ class QuestionDataViewController: UIViewController {
     var questionModel: QuestionModel?
     var teamName: String?
     var mainViewController: QuestionViewController?
+    var topViewController: UIViewController?
     
     // Helper methods
     
@@ -121,6 +123,7 @@ class QuestionDataViewController: UIViewController {
         self.option4Button.setTitle(questionModel?.option4, for: .normal)
         self.isLast = questionModel?.isLast ?? false
         self.mainViewController = questionModel?.mainViewController
+        self.topViewController = questionModel?.topViewController
     }
     
     override func viewDidLoad() {

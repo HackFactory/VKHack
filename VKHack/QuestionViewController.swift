@@ -22,6 +22,7 @@ struct QuestionModel {
     var correctOption: String?
     var isLast: Bool?
     var mainViewController: QuestionViewController?
+    var topViewController: UIViewController?
 }
 
 class QuestionViewController: UIViewController {
@@ -32,6 +33,7 @@ class QuestionViewController: UIViewController {
         configure()
     }
     
+    var topViewController: UIViewController?
     var teamName: String?
     var currentViewControllerIndex = 0
     var dataSource: [QuestionModel] = []
@@ -41,7 +43,12 @@ class QuestionViewController: UIViewController {
     var totalQuestions = "/5"
     
     // Mocks
-    var questionTexts = ["Кто нахуй?", "Кто нахуй?", "Кто нахуй?", "Кто нахуй?", "Кто нахуй?"]
+    var questionTexts = ["Кто является капитаном команды ",
+                         "Какова вместительность стадиона команды ",
+                         "Кто является лучшим бомбардиром команды ",
+                         "Сколько раз ",
+                         "Кто является тренером команды "]
+    
     var options1 = ["Я", "Я", "Я", "Я", "Я"]
     var options2 = ["Ты", "Ты", "Ты", "Ты", "Ты"]
     var options3 = ["Мы", "Мы", "Мы", "Мы", "Мы"]
@@ -68,7 +75,8 @@ class QuestionViewController: UIViewController {
                                             option4: options4[i],
                                             correctOption: correctOptions[i],
                                             isLast: isLast,
-                                            mainViewController: self))
+                                            mainViewController: self,
+                                            topViewController: topViewController))
         }
     }
     

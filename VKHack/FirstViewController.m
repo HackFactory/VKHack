@@ -40,8 +40,13 @@ const CGFloat shadowRadius = 12.0f;
 - (void) viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
+    if (_shown) {
+        return;
+    }
+    _shown = YES;
     [self setupShadowsAndRoundedCorners:self.team1];
     [self setupShadowsAndRoundedCorners:self.team2];
+    
     
     UITapGestureRecognizer *singleFingerTap =
       [[UITapGestureRecognizer alloc] initWithTarget:self

@@ -15,7 +15,7 @@
 @interface FirstViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *loadAssetsInfo;
 @property (nonatomic, strong) NSArray<NSString *> *imageViews;
-
+@property BOOL shown;
 @property (weak, nonatomic) IBOutlet UIView *team1;
 @property (weak, nonatomic) IBOutlet UILabel *team1_name;
 @property (weak, nonatomic) IBOutlet UIImageView *team1_logo;

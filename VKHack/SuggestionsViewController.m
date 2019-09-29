@@ -138,14 +138,24 @@
         // Handle older app versions or app not installed case
     }
 }
-//
-//- (void)vk {
-//
-//}
-//
-//- (void)im {
-//
-//}
+
+- (void)vk_ {
+    NSURL *urlScheme = [NSURL URLWithString:@"vk:"];
+    if ([[UIApplication sharedApplication] canOpenURL:urlScheme]) {
+          [[UIApplication sharedApplication] openURL:urlScheme options:@{} completionHandler:nil];
+    } else {
+        // Handle older app versions or app not installed case
+    }
+}
+
+- (void)im_ {
+    NSURL *urlScheme = [NSURL URLWithString:@"sms:"];
+    if ([[UIApplication sharedApplication] canOpenURL:urlScheme]) {
+          [[UIApplication sharedApplication] openURL:urlScheme options:@{} completionHandler:nil];
+    } else {
+        // Handle older app versions or app not installed case
+    }
+}
 
 - (NSString *)prettify:(NSString *)string {
     if (![string containsString:@"http"]) {

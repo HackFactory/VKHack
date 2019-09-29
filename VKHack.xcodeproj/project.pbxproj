@@ -19,13 +19,13 @@
 		F590FDA0233E934A008C484E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F590FD9E233E934A008C484E /* LaunchScreen.storyboard */; };
 		F590FDA3233E934A008C484E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F590FDA2233E934A008C484E /* main.m */; };
 		F590FDAB233E951E008C484E /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F590FDAA233E951E008C484E /* Photos.framework */; };
-		F5B8E3522340569E002F6B7E /* QuestionDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8E34B2340569E002F6B7E /* QuestionDataViewController.swift */; };
-		F5B8E3532340569E002F6B7E /* TeamQuizDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8E34C2340569E002F6B7E /* TeamQuizDataViewController.swift */; };
-		F5B8E3542340569E002F6B7E /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8E34D2340569E002F6B7E /* QuestionViewController.swift */; };
-		F5B8E3552340569E002F6B7E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8E34E2340569E002F6B7E /* ResultViewController.swift */; };
-		F5B8E3562340569E002F6B7E /* QuestionPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8E34F2340569E002F6B7E /* QuestionPageViewController.swift */; };
-		F5B8E3572340569E002F6B7E /* TeamQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8E3502340569E002F6B7E /* TeamQuizViewController.swift */; };
-		F5B8E3582340569E002F6B7E /* TeamQuizPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8E3512340569E002F6B7E /* TeamQuizPageViewController.swift */; };
+		F5BAED162340931A0036BC7E /* TeamQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED0F2340931A0036BC7E /* TeamQuizViewController.swift */; };
+		F5BAED172340931A0036BC7E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED102340931A0036BC7E /* ResultViewController.swift */; };
+		F5BAED182340931A0036BC7E /* TeamQuizDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED112340931A0036BC7E /* TeamQuizDataViewController.swift */; };
+		F5BAED192340931A0036BC7E /* QuestionPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED122340931A0036BC7E /* QuestionPageViewController.swift */; };
+		F5BAED1A2340931A0036BC7E /* TeamQuizPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED132340931A0036BC7E /* TeamQuizPageViewController.swift */; };
+		F5BAED1B2340931A0036BC7E /* QuestionDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED142340931A0036BC7E /* QuestionDataViewController.swift */; };
+		F5BAED1C2340931A0036BC7E /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAED152340931A0036BC7E /* QuestionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,14 +50,14 @@
 		F590FDA1233E934A008C484E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F590FDA2233E934A008C484E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F590FDAA233E951E008C484E /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
-		F5B8E34B2340569E002F6B7E /* QuestionDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionDataViewController.swift; sourceTree = "<group>"; };
-		F5B8E34C2340569E002F6B7E /* TeamQuizDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamQuizDataViewController.swift; sourceTree = "<group>"; };
-		F5B8E34D2340569E002F6B7E /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
-		F5B8E34E2340569E002F6B7E /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
-		F5B8E34F2340569E002F6B7E /* QuestionPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionPageViewController.swift; sourceTree = "<group>"; };
-		F5B8E3502340569E002F6B7E /* TeamQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamQuizViewController.swift; sourceTree = "<group>"; };
-		F5B8E3512340569E002F6B7E /* TeamQuizPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamQuizPageViewController.swift; sourceTree = "<group>"; };
 		F5B8E359234056C8002F6B7E /* VKHack-Bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VKHack-Bridging-header.h"; sourceTree = "<group>"; };
+		F5BAED0F2340931A0036BC7E /* TeamQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamQuizViewController.swift; sourceTree = "<group>"; };
+		F5BAED102340931A0036BC7E /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		F5BAED112340931A0036BC7E /* TeamQuizDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamQuizDataViewController.swift; sourceTree = "<group>"; };
+		F5BAED122340931A0036BC7E /* QuestionPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionPageViewController.swift; sourceTree = "<group>"; };
+		F5BAED132340931A0036BC7E /* TeamQuizPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamQuizPageViewController.swift; sourceTree = "<group>"; };
+		F5BAED142340931A0036BC7E /* QuestionDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionDataViewController.swift; sourceTree = "<group>"; };
+		F5BAED152340931A0036BC7E /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,13 +119,13 @@
 				F571E9A22340257E00117ED3 /* GIFConverter.m */,
 				F571E9A42340269A00117ED3 /* VKViewController.h */,
 				F571E9A52340269A00117ED3 /* VKViewController.m */,
-				F5B8E34B2340569E002F6B7E /* QuestionDataViewController.swift */,
-				F5B8E34F2340569E002F6B7E /* QuestionPageViewController.swift */,
-				F5B8E34D2340569E002F6B7E /* QuestionViewController.swift */,
-				F5B8E34E2340569E002F6B7E /* ResultViewController.swift */,
-				F5B8E34C2340569E002F6B7E /* TeamQuizDataViewController.swift */,
-				F5B8E3512340569E002F6B7E /* TeamQuizPageViewController.swift */,
-				F5B8E3502340569E002F6B7E /* TeamQuizViewController.swift */,
+				F5BAED142340931A0036BC7E /* QuestionDataViewController.swift */,
+				F5BAED122340931A0036BC7E /* QuestionPageViewController.swift */,
+				F5BAED152340931A0036BC7E /* QuestionViewController.swift */,
+				F5BAED102340931A0036BC7E /* ResultViewController.swift */,
+				F5BAED112340931A0036BC7E /* TeamQuizDataViewController.swift */,
+				F5BAED132340931A0036BC7E /* TeamQuizPageViewController.swift */,
+				F5BAED0F2340931A0036BC7E /* TeamQuizViewController.swift */,
 				F5B8E359234056C8002F6B7E /* VKHack-Bridging-header.h */,
 			);
 			path = VKHack;
@@ -256,19 +256,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5B8E3532340569E002F6B7E /* TeamQuizDataViewController.swift in Sources */,
-				F5B8E3522340569E002F6B7E /* QuestionDataViewController.swift in Sources */,
-				F5B8E3582340569E002F6B7E /* TeamQuizPageViewController.swift in Sources */,
-				F5B8E3572340569E002F6B7E /* TeamQuizViewController.swift in Sources */,
 				F590FD92233E9348008C484E /* AppDelegate.m in Sources */,
 				F571E9A62340269A00117ED3 /* VKViewController.m in Sources */,
+				F5BAED162340931A0036BC7E /* TeamQuizViewController.swift in Sources */,
+				F5BAED172340931A0036BC7E /* ResultViewController.swift in Sources */,
+				F5BAED1B2340931A0036BC7E /* QuestionDataViewController.swift in Sources */,
 				F540A898233FEFDA00EA6546 /* SuggestionsViewController.m in Sources */,
-				F5B8E3552340569E002F6B7E /* ResultViewController.swift in Sources */,
+				F5BAED1C2340931A0036BC7E /* QuestionViewController.swift in Sources */,
+				F5BAED182340931A0036BC7E /* TeamQuizDataViewController.swift in Sources */,
+				F5BAED1A2340931A0036BC7E /* TeamQuizPageViewController.swift in Sources */,
 				F571E9A32340257E00117ED3 /* GIFConverter.m in Sources */,
 				F590FDA3233E934A008C484E /* main.m in Sources */,
-				F5B8E3562340569E002F6B7E /* QuestionPageViewController.swift in Sources */,
+				F5BAED192340931A0036BC7E /* QuestionPageViewController.swift in Sources */,
 				F590FD95233E9348008C484E /* FirstViewController.m in Sources */,
-				F5B8E3542340569E002F6B7E /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,6 +17,7 @@ class ResultViewController: UIViewController {
     var teamName: String?
     var result: Int?
     var imageLink: String?
+    var topViewController: UIViewController?
     
     var shortNames = ["ПФК Арсенал" : "arsenal",
                       "ФК Ахмат" : "akhmat",
@@ -40,6 +41,9 @@ class ResultViewController: UIViewController {
         shareButton.layer.borderColor = UIColor.white.cgColor
         shareButton.layer.borderWidth = 1.0
         shareButton.layer.cornerRadius = 8.0
+    }
+    @IBAction func doneButtonTouchUpInside(_ sender: Any) {
+        topViewController?.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func shareButtonTouchUpInside(_ sender: Any) {
